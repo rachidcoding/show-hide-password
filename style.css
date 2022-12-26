@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.password{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: flex;
+    gap: 10px;
+}
+input{
+    width: 230px;
+    outline: none;
+    border: 0;
+    font-size: 20px;
+    border-bottom: 2px solid darkblue;
+}
+.password label{
+    font-size: 20px;
+    padding-right: 5px;
+}
